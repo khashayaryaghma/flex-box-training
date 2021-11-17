@@ -86,12 +86,15 @@ h3 + a:hover{
     margin-top: 4rem;
 }
 .rules{
-    display: flex;
-    justify-content: space-between; 
     border: dashed 0.16rem #000;
     border-radius: 0.5rem;
     padding: 3rem;
     margin: 5rem;
     margin-top: 3rem;
     background-color: #ece4db;
+}
+.relative{
+}
+ol::before{
+
 }
