@@ -55,3 +55,44 @@ footer{
     color: rgb(40, 212, 212);
     font-size: large;
 }
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.box{
+    background-color: #ece4db;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 4rem;
+    min-width: 11rem;
+    height: 14.5rem;
+    padding-top: 1rem;
+    margin: 1rem;
+}
+img{
+    max-width: 4rem;
+    max-height: 4rem;
+}
+h3 + a{
+    background-color: #d8e2dc;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #000;
+}
+h3 + a:hover{
+    font-size: x-large;
+}
+span{
+    font-weight: bold;
+}
+.goals{
+    border: dashed 0.16rem #000;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 5rem;
+    margin-top: 3rem;
+    background-color: #ece4db;
+}
