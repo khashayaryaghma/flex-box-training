@@ -86,6 +86,8 @@ h3 + a:hover{
     margin-top: 4rem;
 }
 .rules{
+    display: flex;
+    align-items: center;
     border: dashed 0.16rem #000;
     border-radius: 0.5rem;
     padding: 3rem;
@@ -93,8 +95,10 @@ h3 + a:hover{
     margin-top: 3rem;
     background-color: #ece4db;
 }
-.relative{
+.ha{
+    margin-right: 1.5rem;
 }
-ol::before{
-
+ol{
+    border-left: #000 solid 2px;
+    padding-left: 2rem;
 }
