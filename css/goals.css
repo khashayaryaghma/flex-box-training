@@ -89,6 +89,8 @@ span{
     font-weight: bold;
 }
 .goals{
+    display: flex;
+    flex-direction: column;
     border: dashed 0.16rem #000;
     border-radius: 0.5rem;
     padding: 2rem;
